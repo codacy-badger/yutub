@@ -1,0 +1,25 @@
+{
+  "name": "ytub",
+  "version": "1.0.0",
+  "description": "A Node.js lib to see and search infos from YouTube",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "author": "Cap <danielendrell@protonmail.com>",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/CapOliveiraBr/ytub"
+  },
+  "keywords": [
+    "ytub",
+    "youtube",
+    "yt",
+    "api"
+  ],
+  "scripts": {
+    "test": "node test"
+  },
+  "dependencies": {
+    "jsdom": "^16.2.2",
+    "node-fetch": "^2.6.0"
+  }
+}
