@@ -1,7 +1,7 @@
 {
   "name": "yutub",
   "version": "1.0.0",
-  "description": "A Node.js lib to see and search infos from YouTube.",
+  "description": "A Node.js lib to get and search infos from YouTube.",
   "main": "src/index.js",
   "types": "src/index.d.ts",
   "author": "Cap <danielendrell@protonmail.com>",
