@@ -11,7 +11,7 @@ class YouTube {
     const videoValue = await videoRes.text();
     const videoDoc = new DOMParser(videoValue).window.document;
 
-    if (videoDoc.getElementById('unavailable-message')) return null;
+    if (!videoDoc.querySelector('meta[itemprop="channelId"]')) return null;
 
     const videoChannelID = videoDoc.querySelector('meta[itemprop="channelId"]').content;
     const videoChannelAvatarURL = videoDoc.querySelector('#watch7-user-header img').getAttribute('data-thumb').split('=')[0];
